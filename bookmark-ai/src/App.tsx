@@ -52,7 +52,7 @@ function App() {
       });
     });
 
-    // Clean up event listeners
+    /*// Clean up event listeners
     return () => {
       menuItems.forEach((menuItem) => {
         menuItem.removeEventListener('click', handleMenuItemClick);
@@ -63,11 +63,11 @@ function App() {
       cards.forEach((card) => {
         card.removeEventListener('click', handleMenuItemClick);
       });
-    };
+    };*/
   }, []); // Run only once after initial render
 
   return (
-    <>
+    /*<>
       <div className="app">
         <div className="sidebar">
           <div className="user">
@@ -122,7 +122,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </>*/
   );  
 }
 
