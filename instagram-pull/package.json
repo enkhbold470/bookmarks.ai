@@ -1,0 +1,20 @@
+{
+  "name": "instagram-saved-posts",
+  "version": "1.0.0",
+  "description": "Get saved posts from Instagram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pietro Caselani",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "instagram-private-api": "^1.40.1"
+  },
+  "devDependencies": {
+    "eslint": ">=4.18.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-config-airbnb-base": "^12.1.0"
+  }
+}
