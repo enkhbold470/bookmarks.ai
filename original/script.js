@@ -19,6 +19,46 @@ const instagramPosts = [
       "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
     username: "food.duchess",
   },
+  {
+    permalink:
+      "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
+    username: "food.duchess",
+  },
+  {
+    permalink:
+      "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
+    username: "food.duchess",
+  },
+  {
+    permalink:
+      "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
+    username: "food.duchess",
+  },
+  {
+    permalink:
+      "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
+    username: "food.duchess",
+  },
+  {
+    permalink:
+      "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
+    username: "food.duchess",
+  },
+  {
+    permalink:
+      "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
+    username: "food.duchess",
+  },
+  {
+    permalink:
+      "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
+    username: "food.duchess",
+  },
+  {
+    permalink:
+      "https://www.instagram.com/p/C3AtizhM5Hc/?utm_source=ig_embed&amp;utm_campaign=loading",
+    username: "food.duchess",
+  }
 ];
 
 function generateInstagramPosts(posts) {

@@ -30,10 +30,10 @@ html {
 
 .section {
   display: none;
-  padding: 2rem;
+  padding: 20px;
   
   @media screen and (min-width: 768px) {
-    padding: 4rem;
+    padding: 20px;
   }
   
   @supports(display: grid) {
@@ -43,15 +43,15 @@ html {
 
 h1 {
   font-size: 2rem;
-  margin: 50px 50px 20px;
+  margin: 50px 120px 20px;
 }
 
 .grid {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-rows: 150px;
-  grid-auto-flow: row dense;
+  grid-auto-rows: 650px;
+  grid-auto-flow:row;
 }
 
 .item {
@@ -147,7 +147,7 @@ h1 {
 .search-container{
   width: 490px;
   display: block;
-  margin: 20px 50px 20px;
+  margin: 20px 120px 20px;
 }
 
 input#search-bar{
@@ -189,8 +189,8 @@ input#search-bar{
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column width */
-  grid-gap: 20px; /* Adjust gap between items */
+  grid-template-columns: repeat(auto-fill, minmax(250px)); /* Adjust column width */
+  grid-gap: 10px; /* Adjust gap between items */
   width: 90%; /* Set grid width */
   max-width: 1200px; /* Max grid width */
   margin: 0 auto; /* Center grid horizontally */
@@ -202,8 +202,12 @@ input#search-bar{
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   overflow:auto;
-  height: 500px;
-  width: 350px;
+  height: 650px;
+  width: 400px;
+  border: 0;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+  width: calc(100% - 2px);
+  margin: 20px;
 }
 
 .instagram-media div, .instagram-media a {
@@ -273,6 +277,108 @@ input#search-bar{
   font-weight: 550;
   line-height: 18px;
 }
+
+.media-content {
+  padding: 16px;
+}
+
+.media-link {
+  background: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-picture {
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  height: 40px;
+  margin-right: 14px;
+  width: 40px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-name, .profile-date {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  height: 14px;
+  margin-bottom: 6px;
+  width: 100px;
+}
+
+.profile-date {
+  width: 60px;
+}
+
+.media-image {
+  padding: 19% 0;
+}
+
+.view-post {
+  color: #3897f0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 18px;
+  padding-top: 8px;
+}
+
+.media-icons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.icon-set, .icon-bubble, .icon-arrow {
+  background-color: #f4f4f4;
+}
+
+.icon-dot, .icon-circle {
+  border-radius: 50%;
+  height: 12.5px;
+  width: 12.5px;
+}
+
+.icon-line {
+  height: 12.5px;
+  transform: rotate(-45deg);
+  width: 12.5px;
+  margin-right: 14px;
+  margin-left: 2px;
+}
+
+.media-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.text-block, .text-small {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  height: 14px;
+  margin-bottom: 6px;
+  width: 224px;
+}
+
+.text-small {
+  width: 144px;
+}
+
 
 .instagram-media p a {
   color: #c9c8cd;
